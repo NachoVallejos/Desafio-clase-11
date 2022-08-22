@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+/* ultra */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ultra&display=swap');
+/* bebas neue */
+
+
+.body {
+    background-color: #F2D8C9;
+
+}
+
+.barra {
+    font-family: 'Ultra', serif;
+    text-shadow: pink 5px solid ;
+    background-image: url(img/banner.jpg);
+    background-size: 100%;
+}
+
+footer {
+    padding-top: 3rem;
+    background-color: #b8cdf8;
+    text-align: center;
+    text-shadow: 4px 3px #F2D8C9;
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  footer ul li {
+    display: inline-block;
+    margin: 2rem;
+    text-shadow: 4px 3px #F2D8C9;
+    text-align: center;
+  }
+
+/*--- INDEX - Inicio ---*/
+
+.titulo {
+    text-align: center;
+    text-shadow: #b8cdf8  3px 4px ;
+    color: black;
+    margin-top: 20px;
+   font-size: 60px;
+   font-family: "bebas neue", cursive;
+  }
+
+  .tituloInicio {
+    text-align: center;
+    text-shadow: #b8cdf8  3px 4px ;
+    color: black;
+    margin-top: 20px;
+   font-size: 40px;
+   font-family: "bebas neue", cursive;
+
+  }
+
+
+
+section {
+    margin: 1rem;
+    padding: 0.5rem;
+    height: 50rem;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "bebas neue", cursive;
+    border: #b8cdf8 3px solid;
+    font-size: 1.2rem;
+    
+}
+
+.productoA {
+    font-size: 3rem,
+}
+
+.productoB {
+    font-size: 1.5rem;
+}
+
+.productoC {
+    font-size: 1.5rem;
+}
+
+.productoD {
+    font-size: 1.5rem;
+}
+
+section img {
+    width: 50%;
+    border-radius: 4px;
+  }
+
+section button {
+    border-radius: 5px;
+    background-color: #b8cdf8;
+    width: 10rem;
+    height: 3rem;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: "bebas neue", cursive;
+  }
+
+
+/*--- Fin del index --- */
+
+/*--- INICIO - NOTICIAS --- */
+
+.tituloNoticias {
+    text-align: center;
+    text-shadow: #b8cdf8  3px 4px ;
+    color: black;
+    margin-top: 20px;
+    font-size: 60px;
+    font-family: "bebas neue", cursive;
+  }
+
+  .tituloNoticiasDos {
+    text-align: center;
+    text-shadow:#b8cdf8 3px 4px;
+    color: black;
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: "bebas neue", cursive;
+  }
+
+.noticiasA {
+    box-shadow: 10px 22px 14px -6px rgba(0,0,0,0.47);
+    -webkit-box-shadow: 10px 22px 14px -6px rgba(0,0,0,0.47);
+    -moz-box-shadow: 10px 22px 14px -6px rgba(0,0,0,0.47);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: #b8cdf8 4px solid;
+    font-size: 25px;
+ }
+
+ .noticiaImagen {
+    width: 50rem;
+    border: #a5beee 3px solid;
+    margin-bottom: 20px;
+ }
+
+.tituloNoticiasTres {
+ text-align: center;
+ text-shadow:#b8cdf8 3px 4px;
+ color: black;
+ margin-top: 20px;
+ font-size: 40px;
+ font-family: "bebas neue", cursive;
+}
+
+ .noticiasB {
+    box-shadow: 10px 22px 14px -6px rgba(0,0,0,0.47);
+    -webkit-box-shadow: 10px 22px 14px -6px rgba(0,0,0,0.47);
+    -moz-box-shadow: 10px 22px 14px -6px rgba(0,0,0,0.47);
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   border: #b8cdf8 4px solid;
+   font-size: 30px;
+ }
+
+
+ .noticiaImagenDos {
+    width: 50rem;
+    border: #a5beee 3px solid;
+    margin-bottom: 20px;
+ }
+
+ .container-lg {
+    margin-bottom: 50px;
+ }
+
+
+ /* FIN Noticias */
+
+
+ /* INICIO PRODUCTOS */
+ .card {
+   width: 70%;
+    background-color:#b8cdf8;
+    font-family: "bebas neue", cursive;
+    text-shadow: #F2D8C9 1px 1px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* FIN Productos*/
+
+/* Inicio Historia */
+
+.historia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.historiaTexto {
+    font-family: "bebas neue", cursive;
+}
+
+
+/* Fin Historia */
+
+
+/* INICIO CUIDADO DE LA ZAPATILLA */
+
+.cuidadoA {
+    background-color: #b8cdf8;
+    font-family: "bebas neue", cursive;
+    grid-area: cuidadoA;
+} 
+
+.cuidadoB {
+    background-color: #d8b8a6;
+    font-family: "bebas neue", cursive;
+    grid-area: cuidadoB;
+
+}
+.cuidadoC {
+    background-color: #a5beee;
+    font-family: "bebas neue", cursive;
+    grid-area: cuidadoC;
+}
+
+.videoUno {
+display: flex;
+justify-content: right;
+align-items: center;
+border: 2px #b8cdf8 solid;
+margin: 10px;
+background-image: url(img/local2.jpg);
+margin-top: 60px;
+}
+
+.videoDos {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    border: 2px #b8cdf8 solid;
+    margin: 10px;
+    background-image: url(img/local3.jpg);
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
